@@ -27,7 +27,7 @@ const Calculator: React.FC = () => {
       setDisplay(display + ".");
     }
   };
-
+  //Nam DƯơng Fix code 
   const clearDisplay = () => {
     setDisplay("0");
     setFirstOperand(null);
