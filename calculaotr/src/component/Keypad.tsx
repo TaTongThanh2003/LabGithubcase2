@@ -7,7 +7,7 @@ interface KeypadProps {
   clearDisplay: () => void;
   performOperation: (nextOperator: string) => void;
 }
-
+// thành làm việc ở đây
 const Keypad: React.FC<KeypadProps> = ({
   inputDigit,
   inputDecimal,
