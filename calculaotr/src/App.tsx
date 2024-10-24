@@ -7,6 +7,7 @@ import Calculator from './component/Calculator'
 function App() {
   const [count, setCount] = useState(0)
 // fix code
+//ok
   return (
     <>
       <Calculator/>
